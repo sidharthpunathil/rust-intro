@@ -19,8 +19,8 @@ fn print_population(adults: u64, kids: u32, buildings: u32) {
     let buildings_per_person: f64 = buildings as f64 / population as f64;
 
     println!("    Population: {}", population);
-    println!("        Adults: {}", adults);
-    println!("        Kids: {}", kids);
+    println!("    Adults: {}", adults);
+    println!("    Kids: {}", kids);
     println!("    Buildings: {}", buildings);
     println!("    Buildings per person: {}\n", buildings_per_person);
 
